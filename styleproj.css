@@ -1,0 +1,49 @@
+body {
+  background-image: url(cave.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.gallery-item {
+  width: 300px;
+  margin: 10px;
+}
+
+.photo-container {
+  background-color: blue; 
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.photo img {
+  width: 20%;
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+.description-container {
+  background-color: red; 
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.description h2 {
+  color: #fff;
+}
+
+.description p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+}
